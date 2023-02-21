@@ -1,24 +1,24 @@
-body{
-    color: #40514E;
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
 
-div{
-    margin: 0;
+div {
+  margin: 0;
 }
 
-h1{
-    color: #66BFBF;
-    margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    /* The preferred way to define line height
+h1 {
+  color: #66bfbf;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  /* The preferred way to define line height
     is to use values without dimensions 
     e.g. line-height: 2;
     */
-    /* 16px = 1em = 100% as regards font size 
+  /* 16px = 1em = 100% as regards font size 
         pixels are static, others are not.
         choose wisely.
         rem means root em and it's better to 
@@ -28,185 +28,247 @@ h1{
     */
 }
 
-h2{
-    color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
-    padding-bottom: 10px;
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
-h3{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
 }
 
-a{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
 }
 
-a:hover{
-    color: #EAF6F6;
+a:hover {
+  color: #eaf6f6;
 }
 
-.intro>a{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    text-decoration: underline;
+.intro > a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  text-decoration: underline;
 }
 
-.profile-picture{
-    border-radius: 100%;
+.profile-picture {
+  border-radius: 100%;
 }
 
-.top-container{
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
 }
 
-.middle-container{
-    margin: 100px 0;
+.top-container img {
+  max-width: 100%;
+  height: auto;
 }
 
-.bottom-container{
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
+.middle-container {
+  margin: 100px 0;
 }
 
-.div1{
-    height: 200px;
-    width: 200px;
-    background-color: red;
-    display: inline-block;
-    position: absolute;
-    left: 400px;
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
 }
 
-.div2{
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
-    display: inline-block;
-    position:absolute;
-    left: 0px;
+.div1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  left: 400px;
 }
 
-.div3{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-    display: inline-block;
-    position: absolute;
-    left: 200px;
+.div2 {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
 }
 
-.top-cloud{
-    position: absolute;
-    right: 500px;
-    top: 0px;
+.div3 {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
 }
 
-.bottom-cloud{
-    position: absolute;
-    left: 400px;
-    bottom: 400px;
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 0px;
 }
 
-.extra-cloud1{
-    position: absolute;
-    left: 800px;
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
 }
 
-.extra-cloud2{
-    position: absolute;
-    right: 100px;
+.extra-cloud1 {
+  position: absolute;
+  left: 800px;
 }
 
-.extra-cloud3{
-    position: absolute;
-    left: 100px;
-    bottom: 500px;
+.extra-cloud2 {
+  position: absolute;
+  right: 100px;
 }
 
-hr{
-    border: dotted #EAF6F6 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto 100px auto;
+.extra-cloud3 {
+  position: absolute;
+  left: 100px;
+  bottom: 500px;
 }
 
-.intro{
-    width: 50%;
-    margin: auto;
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
 }
 
-.skill-row{
-    text-align: left;
-    width: 50%;
-    margin: 100px auto 100px auto;
+.intro {
+  width: 50%;
+  margin: auto;
 }
 
-.coding-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
 }
 
-p{  
-    line-height: 2;
+.coding-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
-.teaching-img{
-    width: 25%;
-    float: right;
-    margin-left: 30px;
+p {
+  line-height: 2;
 }
 
-.music-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+.teaching-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
-.contact-message{
-    width: 50%;
-    margin: 40px auto 60px;
+.music-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 40px auto 60px;
 }
 
 .btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* Handling responsiveness */
+@media screen and (max-width: 1200px) {
+  .extra-cloud1 {
+    display: none;
   }
-  
-  .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-    text-decoration: none;
+  h1 {
+    font-size: 4.625rem;
   }
 
-  .copyright{
-      color: #EAF6F6;
-      font-size: 0.75rem;
-      padding: 20px 0;
+  h2 {
+    font-size: 2rem;
   }
+}
+
+@media screen and (max-width: 1060px) {
+  .bottom-cloud {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .top-cloud {
+    display: none;
+  }
+
+  .extra-cloud2 {
+    position: absolute;
+    right: 100px;
+  }
+
+  .extra-cloud3 {
+    position: absolute;
+    left: 100px;
+    bottom: 500px;
+    top: 80px;
+  }
+
+  h1 {
+    font-size: 3.625rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    width: 90%;
+    margin: auto;
+  }
+
+  .skill-row {
+    text-align: left;
+    width: 90%;
+    margin: 100px auto 100px auto;
+  }
+}
